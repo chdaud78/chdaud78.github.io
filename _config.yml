@@ -71,7 +71,7 @@ username: chdaud78
 repo: chdaud78.github.io
 branch: main
 relative_source: ./jasper2/
-destination: ./output/
+destination: ./docs/
 production_url:  https://chdaud78.github.io/
 source_url:  https://github.com/chdaud78/chdaud78.github.io/
 
