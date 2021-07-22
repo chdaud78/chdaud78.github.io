@@ -5,6 +5,10 @@
     left: 0;
 }
 
+.nav-sub-menu li a {
+    padding-bottom: 0;
+}
+
 .site-nav-right li {
     position: relative;
 }
