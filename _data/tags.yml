@@ -1,16 +1,20 @@
 Frontend:
   name: Frontend
-  description: Some of the greatest words ever spoken.
+  description: About Frontend
   cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
-  description: False
+Html:
+  name: html
+  description: Html post
   cover: False
-fables:
-  name: fables
-  description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
-getting-started:
-  name: getting-started
-  description: False
+Css:
+  name: css
+  description: Css post
+  cover: False
+Javascript:
+  name: javascript
+  description: Javascript post
+  cover: False
+Sass:
+  nema: sass
+  description: Sass post
   cover: False
