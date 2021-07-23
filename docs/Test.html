@@ -44,7 +44,11 @@
     <meta property="og:site_name" content="Chong myeong" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Test Post" />
-    <meta property="og:description" content="
+    <meta property="og:description" content="function syntaxHighlight (code) {
+    var foo = "Hello world";
+    var bar = 100;
+}
+
 " />
     <meta property="og:url" content="http://localhost:4000/Test" />
     <meta property="og:image" content="http://localhost:4000/assets/images/header.png" />
@@ -55,7 +59,11 @@
     <meta property="article:tag" content="Html" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Test Post" />
-    <meta name="twitter:description" content="
+    <meta name="twitter:description" content="function syntaxHighlight (code) {
+    var foo = "Hello world";
+    var bar = 100;
+}
+
 " />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/images/header.png" />
@@ -88,7 +96,11 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/Test"
     },
-    "description": "
+    "description": "function syntaxHighlight (code) {
+    var foo = "Hello world";
+    var bar = 100;
+}
+
 "
 }
     </script>
@@ -165,6 +177,7 @@ into the {body} of the default.hbs template -->
                 
             
         </div>
+        <a href="#search" class="subscribe-button">Search</a>
     </div>
 </nav>
 
@@ -198,7 +211,11 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    
+                    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">syntaxHighlight</span> <span class="p">(</span><span class="nx">code</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Hello world</span><span class="dl">"</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
                 </div>
             </section>
@@ -515,6 +532,32 @@ into the {body} of the default.hbs template -->
             </div>
         </div>
     
+
+    <!-- The big email subscribe modal content -->
+    <div id="search" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <img class="subscribe-overlay-logo" src="/assets/images/Cmyeong.png" alt="Chong myeong" />
+            
+            <h1 class="subscribe-overlay-title">Search from Chong myeong</h1>
+            <p class="subscribe-overlay-description">Search what you want</p>
+            <form class="">
+    <div class="form-group">
+        <input class="subscribe-email" id="searchText" onkeyup="myFunc()" type="email" name="email" placeholder="search..."/>
+    </div>
+    <button class="" type="submit" onclick="myFunc()"><span>Search</span></button>
+</form>
+<script type="text/javascript">
+    function myFunc() {
+        if (event.keyCode == 13) {
+            var url = encodeURIComponent($("#searchText").val());
+            location.href = "/search.html?query=" + url;
+        }
+    }
+</script>
+        </div>
+    </div>
 
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>

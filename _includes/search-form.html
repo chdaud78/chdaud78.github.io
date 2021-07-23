@@ -1,0 +1,14 @@
+<form class="">
+    <div class="form-group">
+        <input class="subscribe-email" id="searchText" onkeyup="myFunc()" type="email" name="email" placeholder="search..."/>
+    </div>
+    <button class="" type="submit" onclick="myFunc()"><span>Search</span></button>
+</form>
+<script type="text/javascript">
+    function myFunc() {
+        if (event.keyCode == 13) {
+            var url = encodeURIComponent($("#searchText").val());
+            location.href = "/search.html?query=" + url;
+        }
+    }
+</script>

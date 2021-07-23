@@ -156,6 +156,7 @@ into the {body} of the default.hbs template -->
                 
             
         </div>
+        <a href="#search" class="subscribe-button">Search</a>
     </div>
 </nav>
 
@@ -303,6 +304,32 @@ $(function() {
             </div>
         </div>
     
+
+    <!-- The big email subscribe modal content -->
+    <div id="search" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <img class="subscribe-overlay-logo" src="/assets/images/Cmyeong.png" alt="Chong myeong" />
+            
+            <h1 class="subscribe-overlay-title">Search from Chong myeong</h1>
+            <p class="subscribe-overlay-description">Search what you want</p>
+            <form class="">
+    <div class="form-group">
+        <input class="subscribe-email" id="searchText" onkeyup="myFunc()" type="email" name="email" placeholder="search..."/>
+    </div>
+    <button class="" type="submit" onclick="myFunc()"><span>Search</span></button>
+</form>
+<script type="text/javascript">
+    function myFunc() {
+        if (event.keyCode == 13) {
+            var url = encodeURIComponent($("#searchText").val());
+            location.href = "/search.html?query=" + url;
+        }
+    }
+</script>
+        </div>
+    </div>
 
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
