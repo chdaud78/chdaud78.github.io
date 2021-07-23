@@ -1,1 +1,4 @@
-# chdaud78.github.io
+# 준비는 완료이지만 부족한 블로그
+https://chdaud78.github.io/
+
+## 언젠간 프로그래밍 마스터를 하고 이곳에 글을 쓰고야 말거야!
