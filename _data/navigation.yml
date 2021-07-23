@@ -1,0 +1,15 @@
+nav:
+  - title: Frontend
+    subfolderitems:
+      - page: Html
+        url: tag/html/
+      - page: Css
+        url: tag/css/
+      - page: Javascript
+        url: tag/javascript/
+
+  - title: All Posts
+    url: /archive
+
+  - title: Posts by Tags
+    url: /author_archive
