@@ -1,7 +1,7 @@
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
-paginate: 100 # it will paginate after this number
+paginate: 20 # it will paginate after this number
 language: 'en-uk'
 words_per_minute: 200
 
@@ -24,6 +24,8 @@ subscribers: True # you need to connect an external service for this to work,
 # by editing `_includes/subscribe-form.html`
 twitter: tryghost # replace by your username
 facebook: ghost # replace by your username
+github: chdaud78
+instagram: chdaud78
 
 # Disqus
 disqus: True
@@ -42,7 +44,7 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
 
 feed:
   path: feed.xml
