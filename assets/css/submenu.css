@@ -28,3 +28,16 @@
 .site-nav-left li:hover > .nav-sub-menu {
     display: block;
 }
+
+.site-header-black .nav-sub-menu {
+    background-color: #070809;
+    top: 35px;
+}
+
+.site-header-black .nav-sub-menu li:last-child a {
+    padding-bottom: 10px
+}
+
+.site-header-black .nav-sub-menu li a {
+    color: white;
+}
