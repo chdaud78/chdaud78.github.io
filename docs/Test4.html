@@ -110,7 +110,8 @@
 
 </head>
 <body class="post-template">
-
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v11.0" nonce="wB2oJXCL"></script>
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
         <!-- default -->
@@ -183,36 +184,38 @@ into the {body} of the default.hbs template -->
 
         <article class="post-full  tag-javascript post no-image">
 
-            <header class="post-full-header">
-                <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="21 July 2021">21 July 2021</time>
-                    
-                        <span class="date-divider">/</span>
-                        
-                            
-                               <a href='/tag/javascript/'>JAVASCRIPT</a>
-                            
-                        
-                    
-                </section>
-                <h1 class="post-full-title">Test Post</h1>
-            </header>
-
-            
-
-            <section class="post-full-content">
-                <div class="kg-card-markdown">
-                    
-
-                </div>
+        <header class="post-full-header">
+            <section class="post-full-meta">
+                <time class="post-full-meta-date" datetime="21 July 2021">21
+                    July 2021
+                </time>
+                
+                <span class="date-divider">/</span>
+                
+                
+                <a href='/tag/javascript/'>JAVASCRIPT</a>
+                
+                
+                
             </section>
+            <h1 class="post-full-title">Test Post</h1>
+        </header>
 
-            <!-- Email subscribe form at the bottom of the page -->
-            
-                <section class="subscribe-form">
-                    <h3 class="subscribe-form-title">Subscribe to Chong myeong</h3>
-                    <p>Get the latest posts delivered right to your inbox</p>
-                    <form method="post" action="/subscribe/" class="">
+        
+
+        <section class="post-full-content">
+            <div class="kg-card-markdown">
+                
+
+            </div>
+        </section>
+
+        <!-- Email subscribe form at the bottom of the page -->
+        
+        <section class="subscribe-form">
+            <h3 class="subscribe-form-title">Subscribe to Chong myeong</h3>
+            <p>Get the latest posts delivered right to your inbox</p>
+            <form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -222,54 +225,40 @@ into the {body} of the default.hbs template -->
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
 
-                </section>
-            
+        </section>
+        
 
-            <footer class="post-full-footer">
-                <!-- Everything inside the #author tags pulls data from the author -->
-                <!-- #author-->
-                
-                    
-                        <section class="author-card">
-                            
-                                <img class="author-profile-image" src="/assets/images/ghost.png" alt="chdaud78" />
-                            
-                            <section class="author-card-content">
-                                <h4 class="author-card-name"><a href="/author/chdaud78">Park chong myeong</a></h4>
-                                
-                                    <p>The professional publishing platform</p>
-                                
-                            </section>
-                        </section>
-                        <div class="post-full-footer-right">
-                            <a class="author-card-button" href="/author/chdaud78">Read More</a>
-                        </div>
-                    
-                
-                <!-- /author  -->
-            </footer>
-
-            <!-- If you use Disqus comments, just uncomment this block.
-            The only thing you need to change is "test-apkdzgmqhj" - which
-            should be replaced with your own Disqus site-id. -->
+        <footer class="post-full-footer">
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
             
-                <section class="post-full-comments">
-                    <div id="disqus_thread"></div>
-                    <script>
-                        var disqus_config = function () {
-                            var this_page_url = '/Test4';
-                            var this_page_identifier = '/Test4';
-                            var this_page_title = 'Test Post';
-                        };
-                        (function() {
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://chdaud78.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
+            
+            <section class="author-card">
+                
+                <img class="author-profile-image" src="/assets/images/ghost.png"
+                     alt="chdaud78"/>
+                
+                <section class="author-card-content">
+                    <h4 class="author-card-name"><a href="/author/chdaud78">Park chong myeong</a></h4>
+                    
+                    <p>The professional publishing platform</p>
+                    
                 </section>
+            </section>
+            <div class="post-full-footer-right">
+                <a class="author-card-button" href="/author/chdaud78">Read More</a>
+            </div>
             
+            
+            <!-- /author  -->
+        </footer>
+
+        <!-- If you use Disqus comments, just uncomment this block.
+        The only thing you need to change is "test-apkdzgmqhj" - which
+        should be replaced with your own Disqus site-id. -->
+        <section class="post-full-comments">
+            <div class="fb-comments" data-href="https://chdaud78.github.io/" data-width="1040" data-numposts="5"></div>
+        </section>
 
         </article>
 
@@ -281,54 +270,54 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         <div class="read-next-feed">
             
-                
-                
-                
-                
-                    <article class="read-next-card"
-                        
-                            style="background-image: url(/assets/images/header.png)"
-                        
-                    >
-                        <header class="read-next-card-header">
-                            <small class="read-next-card-header-sitetitle">&mdash; Chong myeong &mdash;</small>
-                            
-                                <h3 class="read-next-card-header-title"><a href="/tag/javascript/">Javascript</a></h3>
-                            
-                        </header>
-                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+            
+            
+            
+            
+            <article class="read-next-card"
+                     
+                     style="background-image: url(/assets/images/header.png)"
+                     
+            >
+                <header class="read-next-card-header">
+                    <small class="read-next-card-header-sitetitle">&mdash; Chong myeong &mdash;</small>
+                    
+                    <h3 class="read-next-card-header-title"><a href="/tag/javascript/">Javascript</a></h3>
+                    
+                </header>
+                <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
 </div>
-                        <div class="read-next-card-content">
-                            <ul>
-                                
-                                
-                                  
-                                    
-                                  
-                                
-                                  
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                            </ul>
-                        </div>
-                        <footer class="read-next-card-footer">
-                            <a href="/tag/javascript/">
-                                
-                                    See all 1 posts  →
-                                
-                            </a>
-                        </footer>
-                    </article>
-                
+                <div class="read-next-card-content">
+                    <ul>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </ul>
+                </div>
+                <footer class="read-next-card-footer">
+                    <a href="/tag/javascript/">
+                    
+                    See all 1 posts →
+                    
+                    </a>
+                </footer>
+            </article>
+            
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
@@ -336,7 +325,7 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
+            
 
     <article class="post-card post-template no-image">
         

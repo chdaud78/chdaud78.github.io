@@ -27,10 +27,6 @@ facebook: ghost # replace by your username
 github: chdaud78
 instagram: chdaud78
 
-# Disqus
-disqus: True
-disqus_shortname: chdaud78 # replace with your disqus username
-
 # Google Analytics
 google_analytics: UA-69281367-1 # replace with your GA tracking identifier
 
