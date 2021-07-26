@@ -71,30 +71,12 @@
                     {% if site.facebook %}<a href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a>{% endif %}
                     {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
                     <a href="https://github.com/chdaud78" target="_blank" rel="noopener">Github</a>
-                    {% if site.subscribers %}
-                    <a class="subscribe-button" href="#subscribe">Subscribe</a>
-                    {% endif %}
                 </nav>
 
             </div>
         </footer>
 
     </div>
-
-    <!-- The big email subscribe modal content -->
-    {% if site.subscribers %}
-        <div id="subscribe" class="subscribe-overlay">
-            <a class="subscribe-overlay-close" href="#"></a>
-            <div class="subscribe-overlay-content">
-                {% if site.logo %}
-                    <img class="subscribe-overlay-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" />
-                {% endif %}
-                <h1 class="subscribe-overlay-title">Subscribe to {{ site.title }}</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                {% include subscribe-form.html placeholder="youremail@example.com" %}
-            </div>
-        </div>
-    {% endif %}
 
     <!-- The big search modal content -->
     <div id="search" class="subscribe-overlay">

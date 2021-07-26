@@ -1,12 +1,10 @@
 Frontend:
   name: frontend
-  description: About Frontend
-  cover: assets/images/speeches.jpg
-  sub:
 Html:
   name: html
   description: About Html
-  cover: assets/images/speeches.jpg
+  cover: False
+#  cover: assets/images/speeches.jpg
 Css:
   name: css
   description: Css post
