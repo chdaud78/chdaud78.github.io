@@ -312,17 +312,19 @@
             <p class="subscribe-overlay-description">Search what you want</p>
             <form class="">
     <div class="form-group">
-        <input class="subscribe-email" id="searchText" onkeyup="myFunc()" type="text" placeholder="search..."/>
+        <input class="subscribe-email" id="searchText" type="text" placeholder="search..."/>
     </div>
-    <button class="" type="submit" onclick="myFunc()"><span>Search</span></button>
+    <button id="btn-search" type="submit"><span>Search</span></button>
 </form>
 <script type="text/javascript">
-    function myFunc() {
-        if (event.keyCode == 13) {
-            var url = encodeURIComponent($("#searchText").val());
-            location.href = "/search.html?query=" + url;
-        }
-    }
+    $(function() {
+       $('#btn-search').click(function (e) {
+           e.preventDefault();
+           var url = encodeURIComponent($("#searchText").val());
+           location.href = "/search.html?query=" + url;
+           console.log(url);
+       });
+    });
 </script>
         </div>
     </div>
