@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/tag/html/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2021-07-27T09:53:18+09:00</updated>
-  <id>http://localhost:4000/tag/html/feed.xml</id>
+  <link href="/tag/html/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-07-27T10:18:46+09:00</updated>
+  <id>/tag/html/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Test Post</title>
-      <link href="http://localhost:4000/Test" rel="alternate" type="text/html" title="Test Post" />
+      <link href="/Test" rel="alternate" type="text/html" title="Test Post" />
       <published>2021-07-21T02:20:00+09:00</published>
       <updated>2021-07-21T02:20:00+09:00</updated>
-      <id>http://localhost:4000/Test</id>
-      <content type="html" xml:base="http://localhost:4000/Test">&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      <id>/Test</id>
+      <content type="html" xml:base="/Test">&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
@@ -71,11 +71,11 @@
   
     <entry>
       <title type="html">Test Post</title>
-      <link href="http://localhost:4000/Test2" rel="alternate" type="text/html" title="Test Post" />
+      <link href="/Test2" rel="alternate" type="text/html" title="Test Post" />
       <published>2021-07-21T02:20:00+09:00</published>
       <updated>2021-07-21T02:20:00+09:00</updated>
-      <id>http://localhost:4000/Test2</id>
-      <content type="html" xml:base="http://localhost:4000/Test2">&lt;p&gt;Test2&lt;/p&gt;</content>
+      <id>/Test2</id>
+      <content type="html" xml:base="/Test2">&lt;p&gt;Test2&lt;/p&gt;</content>
 
       
       

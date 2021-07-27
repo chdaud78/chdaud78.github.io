@@ -41,8 +41,8 @@
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Frontend Developer" />
-    <link rel="shortcut icon" href="http://localhost:4000/assets/images/Cmyeong.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/Test2" />
+    <link rel="shortcut icon" href="/assets/images/Cmyeong.png" type="image/png" />
+    <link rel="canonical" href="/Test2" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
@@ -51,8 +51,8 @@
     <meta property="og:title" content="Test Post" />
     <meta property="og:description" content="Test2
 " />
-    <meta property="og:url" content="http://localhost:4000/Test2" />
-    <meta property="og:image" content="http://localhost:4000/assets/images/header.png" />
+    <meta property="og:url" content="/Test2" />
+    <meta property="og:image" content="/assets/images/header.png" />
     <meta property="article:publisher" content="https://www.facebook.com/ghost" />
     <meta property="article:author" content="https://www.facebook.com/ghost" />
     <meta property="article:published_time" content="2021-07-21T02:20:00+09:00" />
@@ -62,8 +62,8 @@
     <meta name="twitter:title" content="Test Post" />
     <meta name="twitter:description" content="Test2
 " />
-    <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/images/header.png" />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="/assets/images/header.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Chong myeong" />
     <meta name="twitter:label2" content="Filed under" />
@@ -80,18 +80,18 @@
     "publisher": {
         "@type": "Organization",
         "name": "Chong myeong",
-        "logo": "http://localhost:4000/assets/images/Cmyeong.png"
+        "logo": "/assets/images/Cmyeong.png"
     },
-    "url": "http://localhost:4000/Test2",
+    "url": "/Test2",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/images/header.png",
+        "url": "/assets/images/header.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/Test2"
+        "@id": "/Test2"
     },
     "description": "Test2
 "
@@ -127,7 +127,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/Cmyeong.png" alt="Chong myeong" /></a>
+                <a class="site-nav-logo" href="/"><img src="/assets/images/Cmyeong.png" alt="Chong myeong" /></a>
             
         
         
@@ -413,7 +413,7 @@ into the {body} of the default.hbs template -->
 <!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
 <div class="floating-header">
     <div class="floating-header-logo">
-        <a href="http://localhost:4000/">
+        <a href="/">
             
                 <img src="/assets/images/Cmyeong.png" alt="Chong myeong icon" />
             
@@ -457,7 +457,7 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/">Chong myeong</a> &copy; 2021</section>
+                <section class="copyright"><a href="/">Chong myeong</a> &copy; 2021</section>
                 <nav class="site-footer-nav">
                     <a href="/">Latest Posts</a>
                     <a href="https://facebook.com/ghost" target="_blank" rel="noopener">Facebook</a>
@@ -481,7 +481,7 @@ into the {body} of the default.hbs template -->
             <p class="subscribe-overlay-description">Search what you want</p>
             <form class="">
     <div class="form-group">
-        <input class="subscribe-email" id="searchText" onkeyup="myFunc()" type="email" name="email" placeholder="search..."/>
+        <input class="subscribe-email" id="searchText" onkeyup="myFunc()" type="text" placeholder="search..."/>
     </div>
     <button class="" type="submit" onclick="myFunc()"><span>Search</span></button>
 </form>
