@@ -1,43 +1,43 @@
-.nav-sub-menu {
+.nav .nav-sub-menu {
     display: none;
     position: absolute;
     top: 20px;
     left: 0;
 }
 
-.nav-sub-menu li a {
+.nav .nav-sub-menu li a {
     padding-bottom: 0;
 }
 
-.site-nav-right li {
+.site-nav-right .nav li {
     position: relative;
 }
 
-.site-nav-right li:hover > .nav-sub-menu {
+.site-nav-right .nav li:hover > .nav-sub-menu {
     display: block;
 }
 
-.site-nav-left li {
+.site-nav-left .nav li {
     position: relative;
 }
 
-.site-nav-left li:hover > a {
+.site-nav-left .nav li:hover > a {
     text-decoration: underline;
 }
 
-.site-nav-left li:hover > .nav-sub-menu {
+.site-nav-left .nav li:hover > .nav-sub-menu {
     display: block;
 }
 
-.site-header-black .nav-sub-menu {
+.site-header-black .nav .nav-sub-menu {
     background-color: #070809;
     top: 35px;
 }
 
-.site-header-black .nav-sub-menu li:last-child a {
+.site-header-black .nav .nav-sub-menu li:last-child a {
     padding-bottom: 10px
 }
 
-.site-header-black .nav-sub-menu li a {
+.site-header-black .nav .nav-sub-menu li a {
     color: white;
 }

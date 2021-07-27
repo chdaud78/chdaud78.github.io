@@ -349,6 +349,83 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     fill: #fff;
 }
 
+/* aside menu */
+.aside-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 350;
+    padding-top: 1.5em;
+    width: 400px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.aside-nav li {
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.aside-nav .nav-close {
+    text-align: right;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.aside-nav .nav-close .icon-close {
+    display: inline-block;
+    background: url("/assets/images/close.svg") no-repeat center center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.aside-nav li a {
+    font-size: 2rem;
+    color: white;
+}
+
+.aside-nav .nav-sub-menu {
+    display: none;
+    list-style: none;
+}
+
+.aside-nav .nav-sub-menu li {
+    padding-left: 0;
+}
+
+.aside-nav .nav-sub-menu li::after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin-top: 13px;
+    margin-right: 10px;
+    float: left;
+}
+
+.aside-nav li:hover > .nav-sub-menu {
+    display: block;
+}
+
+@media (max-width: 1280px) {
+    .aside-nav {
+        display: block;
+    }
+    .site-nav-right {
+        display: none;
+    }
+    .site-nav-left .nav {
+        display: none;
+    }
+}
+
 @media (max-width: 700px) {
     .site-header {
         padding-right: 0;

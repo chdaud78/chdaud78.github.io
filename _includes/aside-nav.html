@@ -1,0 +1,23 @@
+<ul class="aside-nav" role="menu">
+    <li class="nav-close"><a href="">
+        <span class="icon-close"></span>
+    </a></li>
+    <li class="nav-home" role="menuitem"><a href="{{site.baseurl}}">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="{{site.baseurl}}about/">About</a></li>
+    {% for item in site.data.navigation.nav %}
+    {% if item.subfolderitems %}
+    <li role="menuitem" class="{% for entry in item.subfolderitems %}{% if page.url == entry.url %}active{% endif %}{% endfor %}">
+        <a href="{{site.baseurl}}{{ item.subfolderitems[0].url }}">{{ item.title }}</a>
+        <ul class="nav-sub-menu">
+            {% for entry in item.subfolderitems %}
+            <li><a href="{{site.baseurl}}{{entry.url}}">{{entry.page}}</a></li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% else %}
+    <li role="menuitem" class="{% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

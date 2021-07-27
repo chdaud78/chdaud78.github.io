@@ -15,11 +15,11 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
+    <link type="text/css" rel="stylesheet" href="/assets/built/customstyle.css">
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
     <link type="text/css" rel="stylesheet" href="/assets/built/submenu.css">
-    <link type="text/css" rel="stylesheet" href="/assets/built/customstyle.css">
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
     <!-- jquery -->
     <script src="/assets/js/jquery-1.11.3.min.js"></script>
+    <!-- custom js -->
+    <script src="/assets/js/aside.js"></script>
 
     <!--[if IE]>
         <style>
@@ -116,6 +118,9 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
+        <a href="" class="aside-nav-menu">
+            <span class="icon-menu"></span>
+        </a>
         
             
                 <a class="site-nav-logo" href="/"><img src="/assets/images/Cmyeong.png" alt="Chong myeong" /></a>
@@ -166,6 +171,41 @@ into the {body} of the default.hbs template -->
     </div>
 </nav>
 
+        <ul class="aside-nav" role="menu">
+    <li class="nav-close"><a href="">
+        <span class="icon-close"></span>
+    </a></li>
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    
+    
+    <li role="menuitem" class="">
+        <a href="/tag/html/">Frontend</a>
+        <ul class="nav-sub-menu">
+            
+            <li><a href="/tag/html/">Html</a></li>
+            
+            <li><a href="/tag/css/">Css</a></li>
+            
+            <li><a href="/tag/javascript/">Javascript</a></li>
+            
+        </ul>
+    </li>
+    
+    
+    
+    <li role="menuitem" class="active">
+        <a href="/archive">All Posts</a>
+    </li>
+    
+    
+    
+    <li role="menuitem" class="">
+        <a href="/author_archive">Posts by Tags</a>
+    </li>
+    
+    
+</ul>
     </div>
 </header>
 
