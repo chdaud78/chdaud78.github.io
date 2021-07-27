@@ -145,7 +145,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vw 4vw;
+    padding: 14vw 4vw;
     min-height: 200px;
     max-height: 450px;
     text-align: center;
@@ -160,14 +160,15 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    max-height: 200px;
+    border-radius: 50%;
 }
 
 .site-description {
     z-index: 10;
     margin: 0;
     padding: 5px 0;
-    font-size: 2.2rem;
+    font-size: 5rem;
     font-weight: 300;
     letter-spacing: 0.5px;
     opacity: 0.8;
@@ -258,6 +259,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     margin: 0;
     padding: 10px 12px;
+    font-size: 1.4rem;
     color: #fff;
     opacity: 0.8;
 }
@@ -324,7 +326,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 4px 10px;
     border: #fff 1px solid;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1em;
     border-radius: 10px;
     opacity: 0.8;
@@ -357,7 +359,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     left: 0;
     z-index: 350;
     padding-top: 1.5em;
-    width: 400px;
+    width: 30%;
     list-style: none;
     background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
@@ -365,23 +367,23 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .aside-nav li {
     color: white;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 1.5625vw;
+    padding-left: 1.5625vw;
 }
 
 .aside-nav .nav-close {
     text-align: right;
     padding-top: 0;
     padding-left: 0;
-    padding-right: 20px;
+    padding-right: 1.5625vw;
 }
 
 .aside-nav .nav-close .icon-close {
     display: inline-block;
     background: url("/assets/images/close.svg") no-repeat center center;
-    background-size: cover;
-    width: 24px;
-    height: 24px;
+    background-size: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
@@ -401,28 +403,45 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .aside-nav .nav-sub-menu li::after {
     content: "";
-    width: 10px;
-    height: 2px;
+    width: 1.2rem;
+    height: 0.1rem;
     background-color: white;
     display: block;
-    margin-top: 13px;
-    margin-right: 10px;
+    margin-top: 1.015625vw;
+    margin-right: .78125vw;
     float: left;
 }
 
 .aside-nav li:hover > .nav-sub-menu {
     display: block;
 }
-
+.aside-nav-menu {
+    margin-top: 1.5625vw;
+    display: none;
+}
+.aside-nav-menu .icon-menu {
+    display: inline-block;
+    background: url("/assets/images/menu.svg") no-repeat center center;
+    background-size: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
 @media (max-width: 1280px) {
     .aside-nav {
-        display: block;
+        display: none;
     }
     .site-nav-right {
         display: none;
     }
     .site-nav-left .nav {
         display: none;
+    }
+    .site-nav-left .site-nav-logo {
+        display: none;
+    }
+    .aside-nav-menu {
+        display: block;
     }
 }
 
@@ -437,6 +456,12 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     }
     .site-nav-right {
         display: none;
+    }
+    .aside-nav .nav-sub-menu li::after {
+        display: none;
+    }
+    .aside-nav {
+        width: 45%;
     }
 }
 
@@ -532,7 +557,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     width: 25px;
     height: 25px;
     border-radius: 100%;
-
+    border: 1px solid #d8d8d8;
     object-fit: cover;
 }
 
