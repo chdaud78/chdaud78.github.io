@@ -8,11 +8,11 @@ class: page-template
 subclass: 'post page'
 ---
 
-<div id="post-index" class="well article">
+<div id="post-index" class="post-tags-list article">
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
 
-<ul class="entry-meta inline-list">
+<ul class="entry-meta inline-list post-tags-kind">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
   	<li><a href="#{{ this_word }}" class="tag"><span class="term alltags">{{ this_word }}</span> <span class="count alltags">{{ site.tags[this_word].size }}</span></a></li>

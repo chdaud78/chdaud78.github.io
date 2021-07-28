@@ -1,3 +1,4 @@
+/* archive page */
 .post-full-content .archive-list h2 {
     margin-bottom: 20px;
 }
@@ -42,12 +43,15 @@
     float: left;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .post-full-content .archive-list li a h3 {
     margin-top: 0;
 }
+
 .post-full-content .archive-list li a pre {
     display: none;
 }
+
 .post-full-content .archive-list li .archive-item-content {
     white-space: normal;
     word-wrap: break-word;
@@ -58,6 +62,7 @@
     max-width: 575px;
     overflow: hidden;
 }
+
 .post-full-content .archive-list li .archive-item-right {
     float: left;
     margin-left: 20px;
@@ -67,18 +72,35 @@
     .archive-list li .post-date {
         padding-top: 10px;
     }
+
     .post-full-content .archive-list li a img {
         float: none;
         width: 100%;
         height: auto;
         margin-top: 20px;
     }
+
     .post-full-content .archive-list li .archive-item-right {
         margin-top: 15px;
         margin-left: 0;
         float: none;
     }
+
     .post-full-content .archive-list li .archive-item-content {
         max-width: 100%;
     }
+}
+
+/* Tage page */
+.post-tags-list .post-tags-kind {
+    list-style: none;
+}
+.post-tags-list .post-tags-kind li {
+    display: inline-block;
+}
+.post-tags-list .post-tags-kind li a {
+    padding: 5px 18px;
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+    box-shadow: none;
 }
