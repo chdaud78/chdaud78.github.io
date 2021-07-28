@@ -1,5 +1,5 @@
-.archive-list {
-
+.post-full-content .archive-list h2 {
+    margin-bottom: 20px;
 }
 
 .archive-list ul {
@@ -11,9 +11,22 @@
     padding-bottom: 25px;
 }
 
-.archive-list li .post-date {
+.archive-list li .post-info {
     font-size: 16px;
     overflow: hidden;
+}
+
+.archive-list li .post-date {
+    float: left;
+    line-height: 1.2;
+}
+
+.archive-list li .tag {
+    padding: 3px 15px;
+    border: 1px solid #d8d8d8;
+    border-radius: 30px;
+    float: right;
+    line-height: 1.2;
 }
 
 .post-full-content .archive-list li a {
