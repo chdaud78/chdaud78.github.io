@@ -12,7 +12,7 @@
 }
 
 .archive-list li .post-info {
-    font-size: 16px;
+    font-size: 1.6rem;
     overflow: hidden;
 }
 
@@ -61,4 +61,24 @@
 .post-full-content .archive-list li .archive-item-right {
     float: left;
     margin-left: 20px;
+}
+
+@media (max-width: 1280px) {
+    .archive-list li .post-date {
+        padding-top: 10px;
+    }
+    .post-full-content .archive-list li a img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .post-full-content .archive-list li .archive-item-right {
+        margin-top: 15px;
+        margin-left: 0;
+        float: none;
+    }
+    .post-full-content .archive-list li .archive-item-content {
+        max-width: 100%;
+    }
 }
