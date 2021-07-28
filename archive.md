@@ -31,15 +31,15 @@ subclass: 'post page'
                 {% endfor %}
             </div>
             <a href=".{{ post.url }}" target="_blank">
-            {% if post.cover %}
-            <img src="{{ post.cover }}" alt="">
-            {% else %}
-            <img src="" alt="">
-            {% endif %}
-            <div class="archive-item-right">
-                <h3>{{ post.title }}</h3>
-                {{ post.content }}
-            </div>
+                {% if post.cover %}
+                <img src="{{ post.cover }}" alt="post images">
+                {% else %}
+                <img src="assets/images/default.jpg" alt="default">
+                {% endif %}
+                <div class="archive-item-right">
+                    <h3>{{ post.title }}</h3>
+                    <div class="archive-item-content">{{ post.content }}</div>
+                </div>
             </a>
         </li>
     {% endfor %}

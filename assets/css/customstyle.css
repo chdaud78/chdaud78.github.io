@@ -48,7 +48,7 @@
 .post-full-content .archive-list li a pre {
     display: none;
 }
-.post-full-content .archive-list li a p {
+.post-full-content .archive-list li .archive-item-content {
     white-space: normal;
     word-wrap: break-word;
     display: -webkit-box;
@@ -56,8 +56,9 @@
     -webkit-box-orient: vertical;
     max-height: 135px;
     max-width: 575px;
+    overflow: hidden;
 }
-.post-full-content .archive-list li a .archive-item-right {
+.post-full-content .archive-list li .archive-item-right {
     float: left;
     margin-left: 20px;
 }
