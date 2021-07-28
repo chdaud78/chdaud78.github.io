@@ -30,7 +30,7 @@ subclass: 'post page'
                 <span class="tag">{{ tag }}</span>
                 {% endfor %}
             </div>
-            <a href=".{{ post.url }}" target="_blank">
+            <a href=".{{ post.url }}">
                 {% if post.cover %}
                 <img src="{{ post.cover }}" alt="post images">
                 {% else %}
