@@ -1,11 +1,10 @@
----
-        layout: null
-        ---
-        <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/Test6</loc>
+        <loc>http://localhost:4000/Test6.html</loc>
         
         <lastmod>2021-07-21T02:20:00+09:00</lastmod>
         
@@ -21,7 +20,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/Test2</loc>
+        <loc>http://localhost:4000/Test2.html</loc>
         
         <lastmod>2021-07-21T02:20:00+09:00</lastmod>
         
@@ -37,7 +36,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/Test</loc>
+        <loc>http://localhost:4000/Test.html</loc>
         
         <lastmod>2021-07-21T02:20:00+09:00</lastmod>
         
@@ -53,7 +52,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/Test4</loc>
+        <loc>http://localhost:4000/Test4.html</loc>
         
         <lastmod>2021-07-21T02:20:00+09:00</lastmod>
         
@@ -69,7 +68,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/Test3</loc>
+        <loc>http://localhost:4000/Test3.html</loc>
         
         <lastmod>2021-07-21T02:20:00+09:00</lastmod>
         
@@ -85,7 +84,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/Test4</loc>
+        <loc>http://localhost:4000/Test4.html</loc>
         
         <lastmod>2020-07-21T02:20:00+09:00</lastmod>
         
