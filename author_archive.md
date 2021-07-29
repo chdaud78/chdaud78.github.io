@@ -21,7 +21,7 @@ subclass: 'post page'
 
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
 {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-<article>
+<article class="post-card tag-card">
 <h2 id="{{ this_word }}" class="tag-heading">{{ this_word | upcase }}</h2>
 <ul>
 {% for post in site.tags[this_word] %}{% if post.title != null %}
