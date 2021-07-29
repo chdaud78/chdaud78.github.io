@@ -1,31 +1,111 @@
-
----
-        layout: null
-        ---
-        <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.title | xml_escape }}</title>
-        <description>{{ site.description | xml_escape }}</description>
-        <link>{{ site.url }}{{ site.baseurl }}/</link>
-        <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        <generator>Jekyll v{{ jekyll.version }}</generator>
-        {% for post in site.posts limit:30 %}
+        <title>Chong myeong</title>
+        <description>Frontend Developer</description>
+        <link>http://localhost:4000//</link>
+        <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 29 Jul 2021 11:01:08 +0900</pubDate>
+        <lastBuildDate>Thu, 29 Jul 2021 11:01:08 +0900</lastBuildDate>
+        <generator>Jekyll v3.9.0</generator>
+        
         <item>
-            <title>{{ post.title | xml_escape }}</title>
-            <description>{{ post.content | xml_escape }}</description>
-            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-            <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-            {% for tag in post.tags %}
-            <category>{{ tag | xml_escape }}</category>
-            {% endfor %}
-            {% for cat in post.categories %}
-            <category>{{ cat | xml_escape }}</category>
-            {% endfor %}
+            <title>Test Post</title>
+            <description>
+</description>
+            <pubDate>Wed, 21 Jul 2021 02:20:00 +0900</pubDate>
+            <link>http://localhost:4000//Test6</link>
+            <guid isPermaLink="true">http://localhost:4000//Test6</guid>
+            
+            <category>javascript</category>
+            
+            
         </item>
-        {% endfor %}
+        
+        <item>
+            <title>Test Post</title>
+            <description>&lt;p&gt;Test2&lt;/p&gt;
+</description>
+            <pubDate>Wed, 21 Jul 2021 02:20:00 +0900</pubDate>
+            <link>http://localhost:4000//Test2</link>
+            <guid isPermaLink="true">http://localhost:4000//Test2</guid>
+            
+            <category>Html</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Test Post</title>
+            <description>&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+            <pubDate>Wed, 21 Jul 2021 02:20:00 +0900</pubDate>
+            <link>http://localhost:4000//Test</link>
+            <guid isPermaLink="true">http://localhost:4000//Test</guid>
+            
+            <category>Html</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Test Post</title>
+            <description>
+</description>
+            <pubDate>Wed, 21 Jul 2021 02:20:00 +0900</pubDate>
+            <link>http://localhost:4000//Test4</link>
+            <guid isPermaLink="true">http://localhost:4000//Test4</guid>
+            
+            <category>Css</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Test Post</title>
+            <description>&lt;p&gt;asda asdfkj xcvl jlabj asldfj asdlf jasdlkf jasld;k asldj l jalksjg adlkfjg lkdfjgaldkfjg
+asdfjl  asdlfasjd ;lksjdf asdlkfj sdalsdjf asldkf jsldadfksadflgs&lt;/p&gt;
+
+&lt;p&gt;aslkdfj laksjg i lskjif lasldifj liadfjig adlfigj ailfgj ligjadilfgj adlifgj dalifg 
+asligj il; ag; ilfg;lij gaglij asglijlaisejrq;l asdflij&lt;/p&gt;
+
+&lt;p&gt;a;sdoigj wei;wtqjpejsdf asda asdfkj xcvl jlabj asldfj asdlf jasdlkf jasld;k asldj l jalksjg adlkfjg lkdfjgaldkfjg
+asdfjl  asdlfasjd ;lksjdf asdlkfj sdalsdjf asldkf jsldadfksadflgs
+aslkdfj laksjg i lskjif lasldifj liadfjig adlfigj ailfgj ligjadilfgj adlifgj dalifg
+asligj il; ag; ilfg;lij gaglij asglijlaisejrq;l asdflij&lt;/p&gt;
+
+&lt;p&gt;a;sdoigj wei;wtqjpejsdf asda asdfkj xcvl jlabj asldfj asdlf jasdlkf jasld;k asldj l jalksjg adlkfjg lkdfjgaldkfjg
+asdfjl  asdlfasjd ;lksjdf asdlkfj sdalsdjf asldkf jsldadfksadflgs&lt;/p&gt;
+
+&lt;p&gt;aslkdfj laksjg i lskjif lasldifj liadfjig adlfigj ailfgj ligjadilfgj adlifgj dalifg
+asligj il; ag; ilfg;lij gaglij asglijlaisejrq;l asdflij
+a;sdoigj wei;wtqjpejsdf&lt;/p&gt;
+</description>
+            <pubDate>Wed, 21 Jul 2021 02:20:00 +0900</pubDate>
+            <link>http://localhost:4000//Test3</link>
+            <guid isPermaLink="true">http://localhost:4000//Test3</guid>
+            
+            <category>Css</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Test Post</title>
+            <description>
+</description>
+            <pubDate>Tue, 21 Jul 2020 02:20:00 +0900</pubDate>
+            <link>http://localhost:4000//Test4</link>
+            <guid isPermaLink="true">http://localhost:4000//Test4</guid>
+            
+            <category>javascript</category>
+            
+            
+        </item>
+        
     </channel>
 </rss>
