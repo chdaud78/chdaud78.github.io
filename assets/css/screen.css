@@ -419,6 +419,11 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin-top: 1.5625vw;
     display: none;
 }
+
+.site-header-black .aside-nav-menu {
+    margin-top : .6625vw;
+}
+
 .aside-nav-menu .icon-menu {
     display: inline-block;
     background: url("/assets/images/menu.svg") no-repeat center center;
