@@ -3,16 +3,15 @@ Frontend:
 Html:
   name: html
   description: About Html
-  cover: False
-#  cover: assets/images/speeches.jpg
+  cover: assets/images/html_background.jpg
 Css:
   name: css
   description: Css post
-  cover: False
+  cover: assets/images/css_background.jpg
 Javascript:
   name: javascript
   description: Javascript post
-  cover: False
+  cover: assets/images/javascript_background.jpg
 Sass:
   nema: sass
   description: Sass post
