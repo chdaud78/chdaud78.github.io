@@ -12,7 +12,12 @@ Javascript:
   name: javascript
   description: Javascript post
   cover: assets/images/javascript_background.jpg
+Vue:
+  name: vue
+  description: Vue post
+  cover: False
 Sass:
   nema: sass
   description: Sass post
   cover: False
+

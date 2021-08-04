@@ -7,6 +7,8 @@ nav:
         url: tag/css/
       - page: Javascript
         url: tag/javascript/
+      - page: Vue
+        url: tag/vue/
 
   - title: All Posts
     url: /archive
