@@ -9,6 +9,8 @@ nav:
         url: tag/javascript/
       - page: Vue
         url: tag/vue/
+      - page: Sass
+        url: tag/sass
 
   - title: All Posts
     url: /archive
