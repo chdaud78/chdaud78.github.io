@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/vue/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2022-05-25T11:16:18+09:00</updated>
+  <id>http://localhost:4000/tag/vue/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Chong myeong | </title>
+  
+
+  
+    <subtitle>Frontend Developer</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Vue component 전역 등록</title>
+      <link href="http://localhost:4000/Vue" rel="alternate" type="text/html" title="Vue component 전역 등록" />
+      <published>2021-08-05T00:45:00+09:00</published>
+      <updated>2021-08-05T00:45:00+09:00</updated>
+      <id>http://localhost:4000/Vue</id>
+      <content type="html" xml:base="http://localhost:4000/Vue">&lt;p&gt;Test&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Park chong myeong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Vue" />
+      
+
+      
+        <summary type="html">Test</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

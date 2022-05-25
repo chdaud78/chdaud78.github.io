@@ -15,9 +15,9 @@ Javascript:
 Vue:
   name: vue
   description: Vue post
-  cover: False
+  cover: assets/images/javascript_background.jpg
 Sass:
-  nema: sass
+  name: sass
   description: Sass post
-  cover: False
+  cover: assets/images/javascript_background.jpg
 

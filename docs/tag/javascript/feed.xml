@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://chdaud78.github.io/tag/javascript/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://chdaud78.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-08-04T15:54:42+09:00</updated>
-  <id>https://chdaud78.github.io/tag/javascript/feed.xml</id>
+  <link href="http://localhost:4000/tag/javascript/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2022-05-25T11:16:18+09:00</updated>
+  <id>http://localhost:4000/tag/javascript/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Test Post</title>
-      <link href="https://chdaud78.github.io/Test6" rel="alternate" type="text/html" title="Test Post" />
+      <link href="http://localhost:4000/Test6" rel="alternate" type="text/html" title="Test Post" />
       <published>2021-07-21T02:20:00+09:00</published>
       <updated>2021-07-21T02:20:00+09:00</updated>
-      <id>https://chdaud78.github.io/Test6</id>
-      <content type="html" xml:base="https://chdaud78.github.io/Test6"></content>
+      <id>http://localhost:4000/Test6</id>
+      <content type="html" xml:base="http://localhost:4000/Test6"></content>
 
       
       
@@ -67,11 +67,11 @@
   
     <entry>
       <title type="html">Test Post</title>
-      <link href="https://chdaud78.github.io/Test4" rel="alternate" type="text/html" title="Test Post" />
+      <link href="http://localhost:4000/Test4" rel="alternate" type="text/html" title="Test Post" />
       <published>2020-07-21T02:20:00+09:00</published>
       <updated>2020-07-21T02:20:00+09:00</updated>
-      <id>https://chdaud78.github.io/Test4</id>
-      <content type="html" xml:base="https://chdaud78.github.io/Test4"></content>
+      <id>http://localhost:4000/Test4</id>
+      <content type="html" xml:base="http://localhost:4000/Test4"></content>
 
       
       
